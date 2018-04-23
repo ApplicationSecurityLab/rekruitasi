@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', ['uses' => 'StaticPagesController@index', 'as' => 'staticpages.index']);
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
