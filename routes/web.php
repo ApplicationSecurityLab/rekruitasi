@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', ['uses' => 'StaticPagesController@index', 'as' => 'staticpages.index']);
+Route::get('/', ['uses' => 'StaticPagesController@index', 'as' => 'staticpages.index', 'middleware' => 'guest']);
 
 
 
@@ -22,6 +22,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/admin/create', 'HomeController@createAdmin')->name('create.admin');
 
 Route::post('/admin/delete', 'HomeController@deleteAdmin')->name('delete.admin');
+
+Route::post('/admin/deleteUser', 'HomeController@deleteAdmin')->name('admin.delete.user');
 
 Route::post('/admin/deletePost', 'PostController@deletePost')->name('admin.delete.post');
 

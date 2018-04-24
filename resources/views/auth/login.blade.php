@@ -4,14 +4,16 @@
 <div class="container">
     <div class="row justify-content-center" style="align-items: center; height: 100vh">
         <div class="col-md-8">
+            <div class="text-center">
+                <h1 class="display-3">Application & Security</h1>
+                <h2 class="display-4">Login</h2>
+            </div>
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
-
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
-                        <div class="form-group row">
+                        <div class="form-group row pt-4">
                             <label for="email" class="col-sm-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
                             <div class="col-md-6">

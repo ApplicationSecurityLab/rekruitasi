@@ -56,6 +56,7 @@ class HomeController extends Controller
     }
 
     public function deleteAdmin(Request $req) {
-
+        DB::delete("DELETE FROM users WHERE id=?", [$req->id_user]);
+        return redirect()->route('home');
     }
 }

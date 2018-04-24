@@ -4,9 +4,11 @@
 <div class="container">
     <div class="row justify-content-center" style="align-items: center; height: 100vh">
         <div class="col-md-8">
+            <div class="text-center">
+                <h1 class="display-3">Application & Security</h1>
+                <h2 class="display-4">Register</h2>
+            </div>
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
-
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf

@@ -52,6 +52,12 @@
                                         <h2 class="card-title">{{$user->name}}</h2>
                                         <p class="card-text">{{$user->divisi}}</p>
                                         <p class="card-text">{{$user->jobdesk}}</p>
+                                        <form action="{{route('admin.delete.user')}}" method="post" style="display: inline-block">
+                                            @csrf
+                                            <input type="hidden" name="id_user" value="{{$user->id}}" />
+                                            <button class="btn btn-danger" type="submit">Delete</button>
+                                        </form>
+                                        <button class="btn btn-info">Update</button>
                                     </div>
                                 </div>
                             </div>

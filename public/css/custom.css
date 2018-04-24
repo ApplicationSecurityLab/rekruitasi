@@ -5,6 +5,15 @@
 
 .lab-greeting {
     height: 100vh;
+    background-image: url(../img/wp.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-type {
+    background-image: url(../img/type.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .fade-ct {

@@ -4,11 +4,11 @@
     <div class="lab-greeting">
         <div class="fade-ct">
             <div class="center-flex text-white text-center">
-                <img src="{{asset('img/logo_ans.png')}}" style="width: 10%">
+                <img src="{{asset('img/logo_ans.png')}}" style="width: 15%">
                 <h1 class="display-3">Application & Security</h1>
                 <h2 class="display-4">Laboratory</h2>
                 <br>
-                <div class="container">
+                <!--<div class="container">
                     <div class="row">
                         <div class="col-md-3"></div>
                         <div class="col-md-3">
@@ -19,7 +19,7 @@
                         </div>
                         <div class="col-md-3"></div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -97,7 +97,7 @@
             </div>
         </div>
     </div>
-    <div class="posting container mt-5">
+    <!--<div class="posting container mt-5">
         <ul class="nav nav-pills nav-justified">
             <li class="nav-item">
                 <a class="nav-link active" data-toggle="pill" href="#ids">IDS</a>
@@ -137,7 +137,7 @@
                 <div class="col-md-6"></div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 <div class="modal fade" id="idsmodal">
     <div class="modal-dialog">
