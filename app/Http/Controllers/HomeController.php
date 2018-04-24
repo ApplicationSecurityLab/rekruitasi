@@ -6,7 +6,9 @@ use Illuminate\Http\Request;
 use App\User;
 use App\Post;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Auth;
 use DB;
+
 
 class HomeController extends Controller
 {
@@ -27,7 +29,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $posts = Post::all()->where('divisi', 'IDS');
+        $posts = Post::all()->where('divisi', Auth::user()->divisi);
         $users = User::all()->where('isAdmin', 1);
         //$users = DB::select("SELECT * FROM users WHERE isAdmin=?", [1]);
         return view('home', ['users' => $users, 'posts' => $posts]);

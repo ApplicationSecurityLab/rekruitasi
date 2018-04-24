@@ -20,4 +20,9 @@ class PostController extends Controller
             ]);
         return redirect()->route('home');
     }
+
+    public function deletePost(Request $req) {
+        DB::delete("DELETE FROM posts WHERE id_post=?", [$req->id_post]);
+        return redirect()->route('home');
+    }
 }

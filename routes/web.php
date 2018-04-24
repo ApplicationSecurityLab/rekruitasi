@@ -23,6 +23,8 @@ Route::post('/admin/create', 'HomeController@createAdmin')->name('create.admin')
 
 Route::post('/admin/delete', 'HomeController@deleteAdmin')->name('delete.admin');
 
+Route::post('/admin/deletePost', 'PostController@deletePost')->name('admin.delete.post');
+
 Route::post('/admin/createPost', 'PostController@createPost')->name('admin.create.post');
 
 Route::get('/post', 'PostController@index')->name('post.index');

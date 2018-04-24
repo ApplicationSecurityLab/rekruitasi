@@ -50,8 +50,8 @@
                                     </object>
                                     <div class="card-body">
                                         <h2 class="card-title">{{$user->name}}</h2>
-                                        <h4 class="card-text">Divisi</h4>
-                                        <h4 class="card-text">Jobdesk</h4>
+                                        <p class="card-text">{{$user->divisi}}</p>
+                                        <p class="card-text">{{$user->jobdesk}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +148,11 @@
                                     <div class="card-body">
                                         <h2 class="card-title">{{$post->post_title}}</h2>
                                         <p class="card-text">{{$post->divisi}}</p>
-                                        <button class="btn btn-danger">Delete</button>
+                                        <form action="{{route('admin.delete.post')}}" method="post" style="display: inline-block">
+                                            @csrf
+                                            <input type="hidden" name="id_post" value="{{$post->id_post}}" />
+                                            <button class="btn btn-danger" type="submit">Delete</button>
+                                        </form>
                                         <button class="btn btn-info">Update</button>
                                     </div>
                                 </div>
