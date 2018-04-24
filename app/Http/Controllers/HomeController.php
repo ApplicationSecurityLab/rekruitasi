@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\User;
+use App\Post;
+use Illuminate\Support\Facades\Hash;
+use DB;
 
 class HomeController extends Controller
 {
@@ -23,6 +27,33 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $posts = Post::all()->where('divisi', 'IDS');
+        $users = User::all()->where('isAdmin', 1);
+        //$users = DB::select("SELECT * FROM users WHERE isAdmin=?", [1]);
+        return view('home', ['users' => $users, 'posts' => $posts]);
+    }
+
+    public function createAdmin(Request $req) {
+        /*$user = new User;
+        $user->name = $req->name;
+        $user->email = $req->email;
+        $user->password = $req->password;
+        $user->divisi = $req->divisi;
+        $user->jobdesk = $req->jobdesk;
+        $user->isAdmin = $req->admin;
+        $user->save;*/
+        DB::insert("INSERT INTO users(name, email, password, divisi, jobdesk, isAdmin) VALUES(?, ?, ?, ?, ?, ?)", [
+            $req->name, 
+            $req->email, 
+            Hash::make($req->password), 
+            $req->divisi, 
+            $req->jobdesk, 
+            $req->admin
+        ]);
+        return redirect()->route('home');
+    }
+
+    public function deleteAdmin(Request $req) {
+
     }
 }

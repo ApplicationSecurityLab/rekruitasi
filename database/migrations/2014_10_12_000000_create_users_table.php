@@ -18,6 +18,8 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->string('divisi');
+            $table->string('jobdesk');
             $table->boolean('isSuper')->default(false);
             $table->boolean('isAdmin')->default(false);
             $table->rememberToken();
