@@ -9,7 +9,7 @@
     <script src="{{asset('gameasset/TemplateData/UnityProgress.js')}}"></script>  
     <script src="{{asset('gameasset/Build/UnityLoader.js')}}"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "http://localhost:8000/gameasset/Build/WEBGL2.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "http://localhost:8000/gameasset/Build/WEBGL4.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>

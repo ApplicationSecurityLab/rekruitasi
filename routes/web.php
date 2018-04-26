@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', ['uses' => 'StaticPagesController@index', 'as' => 'staticpages.index', 'middleware' => 'guest']);
+Route::get('/', ['uses' => 'StaticPagesController@index', 'as' => 'staticpages.index']);
 
 
 

@@ -9,11 +9,11 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-2 text-center">
-                            <object data="" type="image/png" style='width:100%'>
+                            <object data="http://localhost:8000/img/CAslab/{{Auth::user()->image}}" type="image/jpg" style='width:100%' class="rounded-circle">
                                 <img src="{{asset('img/user.svg')}}" style='width:100%' class="mt-3"/>
                             </object>
                         </div>
-                        <div class="col-md-10 pt-5">
+                        <div class="col-md-10 pt-4">
                             <h2 class="card-title">{{Auth::user()->name}}</h2>
                             <h4 class="card-text">{{Auth::user()->email}}</h4>
                             @if(Auth::user()->isSuper)
@@ -48,7 +48,7 @@
                                     <div class="row">
                                         <div class="col-md-5">
                                             <div style="width: 100%; height: 200px; padding: 15px" class="text-center">
-                                                <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover'>
+                                                <object data="http://localhost:8000/img/CAslab/{{$user->image}}" type="image/jpg" style='width:100%; height: 100%; object-fit: cover' class="rounded-circle">
                                                     <img src="{{asset('img/user.svg')}}" style='width:100%; height: 100%; object-fit: contain'/>
                                                 </object>
                                             </div>
@@ -212,6 +212,7 @@
         <div class="tab-content">
             <div class="tab-pane active fade show container" id="post">
                 @if($posts)
+                    <br>
                     <div class="row">
                         @foreach($posts as $post)
                             <div class="col-md-3">

@@ -12,8 +12,9 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call([
-            BiodataSeeder::class,
-            DivisionSeeder::class
+            //BiodataSeeder::class,
+            //DivisionSeeder::class,
+            AssistantSeeder::class
         ]);
     }
 }

@@ -340,6 +340,7 @@ class ComposerStaticInitd2c83658b529725b5b61043244086d83
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'AssistantSeeder' => __DIR__ . '/../..' . '/database/seeds/AssistantSeeder.php',
         'BiodataSeeder' => __DIR__ . '/../..' . '/database/seeds/BiodataSeeder.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',

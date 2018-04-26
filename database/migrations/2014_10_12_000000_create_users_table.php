@@ -20,6 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->string('divisi');
             $table->string('jobdesk');
+            $table->string('image');
             $table->boolean('isSuper')->default(false);
             $table->boolean('isAdmin')->default(false);
             $table->rememberToken();

@@ -11,7 +11,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/custom.js') }}"></script>
 
     <!-- Fonts -->
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
 </head>
-<body>
+<body style="overflow-x: hidden">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel fixed-top">
             <div class="container">
@@ -45,11 +45,14 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest
+                            <li><a class="nav-link" href="{{ route('list.assistant') }}">{{ __('List Assistant') }}</a></li>
                             <li><a class="nav-link" href="{{ route('list.cassistant') }}">{{ __('List CAssistant') }}</a></li>
                             <li><a class="nav-link" href="{{ route('post.index') }}">{{ __('List Post') }}</a></li>
                             <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
                             <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
                         @else
+                            <li><a class="nav-link" href="{{ route('home') }}">{{ __('Action') }}</a></li>
+                            <li><a class="nav-link" href="{{ route('list.assistant') }}">{{ __('List Assistant') }}</a></li>
                             <li><a class="nav-link" href="{{ route('list.cassistant') }}">{{ __('List CAssistant') }}</a></li>
                             <li><a class="nav-link" href="{{ route('post.index') }}">{{ __('List Post') }}</a></li>
                             <li class="nav-item dropdown">
@@ -80,7 +83,7 @@
         </main>
     </div>
     <!-- Start of LiveChat (www.livechatinc.com) code -->
-    <script type="text/javascript">
+    <!--<script type="text/javascript">
         window.__lc = window.__lc || {};
         window.__lc.license = 9710250;
         (function() {
@@ -88,7 +91,27 @@
         lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
         })();
-    </script>
+    </script>-->
     <!-- End of LiveChat code -->
+    <!--  Widget Code -->
+    <script type="text/javascript">((function(){
+        var load=function(){
+            var script="https://s.acquire.io/a-7a1fd/init.js?full";
+            var x=document.createElement('script');
+            x.src=script;x.async=true;
+            var sx=document.getElementsByTagName('script')[0];
+            sx.parentNode.insertBefore(x, sx);
+            
+    };
+        if(document.readyState === "complete")
+            load();
+        else if (window.addEventListener)  // W3C DOM
+            window.addEventListener('load',load,false);
+        else if (window.attachEvent) { // IE DOM
+            window.attachEvent("onload", load);
+        }
+    })())</script>
+    <noscript><a href="https://www.acquire.io?welcome" title="live chat software">Acquire</a></noscript>
+    <!-- / Widget Code -->
 </body>
 </html>

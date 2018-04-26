@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <div style="background-color: snow; padding: 130px 50px 100px" class="text-center">
+    <div style="background-image: url({{asset('img/material-wp2.jpg')}}); background-position: bottom; padding: 130px 50px 100px" class="text-center text-white">
         <div class="container">
+            <br>
             <h1 class="display-2">List Posts</h1>
         </div>
     </div>

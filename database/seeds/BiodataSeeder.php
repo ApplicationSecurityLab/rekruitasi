@@ -17,7 +17,8 @@ class BiodataSeeder extends Seeder
             'password' => bcrypt('helloworld'),
             'divisi' => 'GIS',
             'jobdesk' => 'map 2D dan 3D telkom',
-            'isAdmin' => 1
+            'isAdmin' => 1,
+            'image' => 'arif.jpg'
         ]);
         DB::table('users')->insert([
             'name' => "Muhammad Diaz",
@@ -26,7 +27,8 @@ class BiodataSeeder extends Seeder
             'divisi' => 'WEB',
             'jobdesk' => 'FrontEnd',
             'isAdmin' => 0,
-            'isSuper' => 1
+            'isSuper' => 1,
+            'image' => 'diaz.jpg'
         ]);
         DB::table('users')->insert([
             'name' => "Faris Hadianto",
@@ -34,7 +36,8 @@ class BiodataSeeder extends Seeder
             'password' => bcrypt('helloworld'),
             'divisi' => 'WEB',
             'jobdesk' => 'Backend',
-            'isAdmin' => 0
+            'isAdmin' => 0,
+            'image' => 'faris.jpg'
         ]);
         DB::table('users')->insert([
             'name' => "Nanda Purba",
@@ -42,7 +45,8 @@ class BiodataSeeder extends Seeder
             'password' => bcrypt('helloworld'),
             'divisi' => 'WEB',
             'jobdesk' => 'Backend',
-            'isAdmin' => 1
+            'isAdmin' => 1,
+            'image' => 'nanda.jpg'
         ]);
         DB::table('users')->insert([
             'name' => "Ramadhan Prasojoe",
@@ -50,7 +54,8 @@ class BiodataSeeder extends Seeder
             'password' => bcrypt('helloworld'),
             'divisi' => 'Game Tech',
             'jobdesk' => 'Game Programming',
-            'isAdmin' => 0
+            'isAdmin' => 0,
+            'image' => 'joe.jpg'
         ]);
         DB::table('users')->insert([
             'name' => "Kusvhiawan Muhammad",
@@ -58,7 +63,8 @@ class BiodataSeeder extends Seeder
             'password' => bcrypt('helloworld'),
             'divisi' => 'Game Tech',
             'jobdesk' => 'Game Designer',
-            'isAdmin' => 1
+            'isAdmin' => 1,
+            'image' => 'kusvhi.jpg'
         ]);
         DB::table('users')->insert([
             'name' => "Varenza Arivian",
@@ -66,7 +72,8 @@ class BiodataSeeder extends Seeder
             'password' => bcrypt('helloworld'),
             'divisi' => 'Game Tech',
             'jobdesk' => 'Game Designer',
-            'isAdmin' => 0
+            'isAdmin' => 0,
+            'image' => 'varenza.jpg'
         ]);
         DB::table('users')->insert([
             'name' => "Christian Pranata",
@@ -74,7 +81,8 @@ class BiodataSeeder extends Seeder
             'password' => bcrypt('helloworld'),
             'divisi' => 'IDS',
             'jobdesk' => 'Kerjanya bareng sama semua',
-            'isAdmin' => 0
+            'isAdmin' => 0,
+            'image' => 'tian.jpg'
         ]);
         DB::table('users')->insert([
             'name' => "Luqmanul Hakim",
@@ -82,7 +90,8 @@ class BiodataSeeder extends Seeder
             'password' => bcrypt('helloworld'),
             'divisi' => 'IDS',
             'jobdesk' => 'Kerjanya bareng sama semua',
-            'isAdmin' => 0
+            'isAdmin' => 0,
+            'image' => 'luqman.jpg'
         ]);
         DB::table('users')->insert([
             'name' => "Muhammad Rakha",
@@ -90,7 +99,8 @@ class BiodataSeeder extends Seeder
             'password' => bcrypt('helloworld'),
             'divisi' => 'IDS',
             'jobdesk' => 'Kerjanya bareng sama semua',
-            'isAdmin' => 1
+            'isAdmin' => 1,
+            'image' => 'rakha.jpg'
         ]);
         DB::table('users')->insert([
             'name' => "Valdi Harris",
@@ -98,7 +108,8 @@ class BiodataSeeder extends Seeder
             'password' => bcrypt('helloworld'),
             'divisi' => 'VOIP',
             'jobdesk' => 'Kerjanya bareng sama semua',
-            'isAdmin' => 1
+            'isAdmin' => 1,
+            'image' => 'valdi.jpg'
         ]);
         DB::table('users')->insert([
             'name' => "Kuswindarini",
@@ -106,7 +117,8 @@ class BiodataSeeder extends Seeder
             'password' => bcrypt('helloworld'),
             'divisi' => 'VOIP',
             'jobdesk' => 'Kerjanya bareng sama semua',
-            'isAdmin' => 0
+            'isAdmin' => 0,
+            'image' => 'winda.jpg'
         ]);
         DB::table('users')->insert([
             'name' => "Willy Amaluddin",
@@ -114,7 +126,8 @@ class BiodataSeeder extends Seeder
             'password' => bcrypt('helloworld'),
             'divisi' => 'IV',
             'jobdesk' => 'Video profil fakultas, visi misi fakultas',
-            'isAdmin' => 1
+            'isAdmin' => 1,
+            'image' => 'willy.jpg'
         ]);
     }
 }

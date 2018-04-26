@@ -2435,7 +2435,7 @@
 	   var contentString0 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-			'<img src="C:/Users/user/Downloads/webaands/gambar/tuch.jpg" width="300" height="150"></img>'+
+			'<img src="http://localhost:8000/maps/tuch.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">TELKOM CONVENTION HOLE</h1>'+
             '<div id="bodyContent">'+
             '<p><b>GKU</b>, geudng 10 lantai.' +
@@ -2465,7 +2465,7 @@
 	   var contentString1 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-				'<img src="C:/Users/user/Downloads/webaands/gambar/fri.jpg" width="300" height="150"></img>'+
+				'<img src="http://localhost:8000/maps/fri.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">FAKULTAS REKAYA INDUSTRI</h1>'+
             '<div id="bodyContent">'+
             '<p><b>Fakultas Rekayasa Industri</b>, atau sering disebut <b>FRI</b>, adalah ' +
@@ -2497,7 +2497,7 @@
 		var contentString = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-			'<img src="C:/Users/user/Downloads/webaands/gambar/fte.jpg" width="300" height="150"></img>'+
+			'<img src="http://localhost:8000/maps/fte.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">FAKULTAS TEKNIK ELEKTRO</h1>'+
             '<div id="bodyContent">'+
             '<p><b>Fakultas Teknik Elektro</b>, atau sering disebut <b>FTE</b>, adalah ' +
@@ -2529,7 +2529,7 @@
 	var contentString2 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-			'<img src="C:/Users/user/Downloads/webaands/gambar/fit.jpg" width="300" height="150"></img>'+
+			'<img src="http://localhost:8000/maps/fit.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">FAKULTAS ILMU TERAPAN</h1>'+
             '<div id="bodyContent">'+
             '<p><b>Fakultas ILMU TERAPAN</b>, atau sering disebut <b>FIT</b>, adalah ' +
@@ -2560,7 +2560,7 @@
 		var contentString3 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-			'<img src="C:/Users/user/Downloads/webaands/gambar/bala.jpg" width="300" height="150"></img>'+
+			'<img src="http://localhost:8000/maps/bala.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">FAKULTAS INDUSTRI KREATIF</h1>'+
             '<div id="bodyContent">'+
             '<p><b>Fakultas INDUSTRI KREATIF</b>, atau sering disebut <b>FIK</b>, adalah ' +
@@ -2591,7 +2591,7 @@
 	var contentString4 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-			'<img src="C:/Users/user/Downloads/webaands/gambar/feb.png" width="300" height="150"></img>'+
+			'<img src="http://localhost:8000/maps/feb.png" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">FAKULTAS EKONOMI BISNIS</h1>'+
             '<div id="bodyContent">'+
             '<p><b>Fakultas EKONOMI BISNIS</b>, atau sering disebut <b>FEB</b>, adalah ' +
@@ -2623,7 +2623,7 @@
 		var contentString5 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-			'<img src="C:/Users/user/Downloads/webaands/gambar/fkb.jpg" width="300" height="150"></img>'+
+			'<img src="http://localhost:8000/maps/fkb.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">FAKULTAS KOMUNIKASI BISNIS</h1>'+
             '<div id="bodyContent">'+
             '<p><b>FAKULTAS KOMUNIKASI BISNIS</b>, atau sering disebut <b>FKB</b>, adalah ' +
@@ -2656,7 +2656,7 @@
 		var contentString6 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-			'<img src="C:/Users/user/Downloads/webaands/gambar/fif.jpg" width="300" height="150"></img>'+
+			'<img src="http://localhost:8000/maps/fif.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">FAKULTAS INFORMATIKA</h1>'+
             '<div id="bodyContent">'+
             '<p><b>FAKULTAS INFORMATIKA</b>, atau sering disebut <b>FIF</b>, adalah ' +
@@ -2687,7 +2687,7 @@
 		var contentString7 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-			'<img src="C:/Users/user/Downloads/webaands/gambar/putra.jpg" width="300" height="150"></img>'+
+			'<img src="http://localhost:8000/maps/putra.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">ASRAMA PUTRA</h1>'+
             '<div id="bodyContent">'+
             '<p><b>ASRAMA PUTRA</b>, memiliki 12 gedung asrma berlantai 4' +
@@ -2717,7 +2717,7 @@
 			var contentString8 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-				'<img src="C:/Users/user/Downloads/webaands/gambar/putri.jpg" width="300" height="150"></img>'+
+				'<img src="http://localhost:8000/maps/putri.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">ASRAMA PUTRI</h1>'+
             '<div id="bodyContent">'+
             '<p><b>ASRAMA PUTRI</b>, memiliki 7 gedung asrma berlantai 4' +
@@ -2748,7 +2748,7 @@
 			var contentString9 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-				'<img src="C:/Users/user/Downloads/webaands/gambar/gku.jpg" width="300" height="150"></img>'+
+				'<img src="http://localhost:8000/maps/gku.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">GEDUNG KULIAH UMUM</h1>'+
             '<div id="bodyContent">'+
             '<p><b>GKU</b>, geudng 10 lantai.' +
@@ -2779,7 +2779,7 @@
 				var contentString10 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-				'<img src="C:/Users/user/Downloads/webaands/gambar/a.jpg" width="300" height="150"></img>'+
+				'<img src="http://localhost:8000/maps/a.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">GEDUNG KULIAH UMUM TEKNIK</h1>'+
             '<div id="bodyContent">'+
             '<p><b>GEDUNG A</b>, geudng 3 lantai.' +
@@ -2808,7 +2808,7 @@
 		var contentString11 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-				'<img src="C:/Users/user/Downloads/webaands/gambar/b.jpg" width="300" height="150"></img>'+
+				'<img src="http://localhost:8000/maps/b.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">GEDUNG KULIAH UMUM TEKNIK</h1>'+
             '<div id="bodyContent">'+
             '<p><b>GEDUNG B</b>, geudng 3 lantai.' +
@@ -2838,7 +2838,7 @@
 		var contentString12 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-				'<img src="C:/Users/user/Downloads/webaands/gambar/k.jpg" width="300" height="150"></img>'+
+				'<img src="http://localhost:8000/maps/k.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">GEDUNG PERTUNJUKAN</h1>'+
             '<div id="bodyContent">'+
             '<p><b>GEDUNG k</b>, geudng pertunjukan seni ,event dan seminar.' +
@@ -2897,7 +2897,7 @@
 			var contentString14 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-				'<img src="C:/Users/user/Downloads/webaands/gambar/sc.jpg" width="300" height="150"></img>'+
+				'<img src="http://localhost:8000/maps/sc.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">STUDENT CENTER</h1>'+
             '<div id="bodyContent">'+
             '<p><b>AULA LATIHAN</b>, sering digunakan untuk latihan olahraga dan ibadah.' +
@@ -2927,7 +2927,7 @@
 			var contentString15 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-				'<img src="C:/Users/user/Downloads/webaands/gambar/msu.jpg" width="300" height="150"></img>'+
+				'<img src="http://localhost:8000/maps/msu.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">MASJID SYAMSUL ULUM</h1>'+
             '<div id="bodyContent">'+
             '<p><b>MSU</b>, adalah sebuah tempat beribada umat muslim dikawasan telkom university.' +
@@ -2958,7 +2958,7 @@
 		var contentString16 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-				'<img src="C:/Users/user/Downloads/webaands/gambar/lc.jpg" width="300" height="150"></img>'+
+				'<img src="http://localhost:8000/maps/lc.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">LEARNING CENTER</h1>'+
             '<div id="bodyContent">'+
             '<p><b>LC</b>, memiliki lantai 5 dan berada dipusat telkom university.' +
@@ -2988,7 +2988,7 @@
 		var contentString17 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-				'<img src="C:/Users/user/Downloads/webaands/gambar/gdl.jpg" width="300" height="150"></img>'+
+				'<img src="http://localhost:8000/maps/gdl.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">GEDUNG L</h1>'+
             '<div id="bodyContent">'+
             '<p><b>GEDUNG L</b>, adalah gedung bimbingan konseling bagi mahasiswa dan tempat penginputan TAK.' +
@@ -3049,7 +3049,7 @@
 		var contentString19 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-				'<img src="C:/Users/user/Downloads/webaands/gambar/tmart.jpg" width="300" height="150"></img>'+
+				'<img src="http://localhost:8000/maps/tmart.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">T-MART</h1>'+
             '<div id="bodyContent">'+
             '<p><b>telkom market</b>, adalah toko bahan keseharian mahasiswa telkom.' +
@@ -3079,7 +3079,7 @@
 		var contentString20 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-				'<img src="C:/Users/user/Downloads/webaands/gambar/danau.jpg" width="300" height="150"></img>'+
+				'<img src="http://localhost:8000/maps/danau.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">DANAU GALAU</h1>'+
             '<div id="bodyContent">'+
             '<p><b> Alamat:</b> Jl. Telekomunikasi Terusan Buah Batu Indonesia 40257 , Bandung , Indonesia '+
@@ -3109,7 +3109,7 @@
 		var contentString21 = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-				'<img src="C:/Users/user/Downloads/webaands/gambar/btp.jpg" width="300" height="150"></img>'+
+				'<img src="http://localhost:8000/maps/btp.jpg" width="300" height="150"></img>'+
             '<h1 id="firstHeading" class="firstHeading">BANDUNG TEHCNO PARK</h1>'+
             '<div id="bodyContent">'+
             '<p><b> Alamat:</b> Jl. Telekomunikasi Terusan Buah Batu Indonesia 40257 , Bandung , Indonesia '+
@@ -3291,7 +3291,6 @@
 	 
  
 	
-     
     </script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
     </script>

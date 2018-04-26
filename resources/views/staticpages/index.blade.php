@@ -5,7 +5,7 @@
         <div class="fade-ct">
             <div class="center-flex text-white text-center">
                 <img src="{{asset('img/logo_ans.png')}}" style="width: 15%">
-                <h1 class="display-3">Application & Security</h1>
+                <h1 class="display-3" style="font-weight: 700">Application & Security</h1>
                 <h2 class="display-4">Laboratory</h2>
                 <br>
                 <!--<div class="container">
@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-md-2">
                         <a href="{{route('divisi.ids')}}">
-                            <div class="card">
+                            <div class="card tp-card">
                                 <div style="width: 100%; height: 150px; padding: 15px" class="text-center">
                                     <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover' class="card-img-top">
                                         <img src="{{asset('img/ids.svg')}}" style='width:100%; height:100%; object-fit: contain' class="card-img-top" />
@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-md-2">
                         <a href="{{route('divisi.voip')}}">
-                            <div class="card">
+                            <div class="card tp-card">
                                 <div style="width: 100%; height: 150px; padding: 15px" class="text-center">
                                     <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover' class="card-img-top">
                                         <img src="{{asset('img/voip.svg')}}" style='width:100%; height:100%; object-fit: contain' class="card-img-top" />
@@ -55,7 +55,7 @@
                     </div>
                     <div class="col-md-2">
                         <a href="{{route('divisi.web')}}">
-                            <div class="card">
+                            <div class="card tp-card">
                                 <div style="width: 100%; height: 150px; padding: 15px" class="text-center">
                                     <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover' class="card-img-top">
                                         <img src="{{asset('img/web.svg')}}" style='width:100%; height:100%; object-fit: contain' class="card-img-top" />
@@ -70,7 +70,7 @@
                     </div>
                     <div class="col-md-2">
                         <a href="{{route('divisi.iv')}}">
-                            <div class="card">
+                            <div class="card tp-card">
                                 <div style="width: 100%; height: 150px; padding: 15px" class="text-center">
                                     <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover' class="card-img-top">
                                         <img src="{{asset('img/iv.svg')}}" style='width:100%; height:100%; object-fit: contain' class="card-img-top" />
@@ -85,7 +85,7 @@
                     </div>
                     <div class="col-md-2">
                         <a href="{{route('divisi.gt')}}">
-                            <div class="card">
+                            <div class="card tp-card">
                                 <div style="width: 100%; height: 150px; padding: 15px" class="text-center">
                                     <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover' class="card-img-top">
                                         <img src="{{asset('img/gametech.svg')}}" style='width:100%; height:100%; object-fit: contain' class="card-img-top" />
@@ -100,7 +100,7 @@
                     </div>
                     <div class="col-md-2">
                         <a href="{{route('divisi.gis')}}">
-                            <div class="card">
+                            <div class="card tp-card">
                                 <div style="width: 100%; height: 150px; padding: 15px" class="text-center">
                                     <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover' class="card-img-top">
                                         <img src="{{asset('img/gis.svg')}}" style='width:100%; height:100%; object-fit: contain' class="card-img-top" />

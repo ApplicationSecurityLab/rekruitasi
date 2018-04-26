@@ -2,7 +2,7 @@
 
 @section('content')
     <br><br>
-    <div class="jumbotron">
+    <div class="jumbotron" style="background-image: url({{asset('img/material-wp.jpg')}}); background-position: center">
         <div class="container">
             <br>
             <h1 class="display-2">Game Tech</h1>
@@ -26,7 +26,7 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div style="width: 100%; height: 200px; padding: 15px" class="text-center">
-                                        <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover'>
+                                        <object data="http://localhost:8000/img/CAslab/{{$is->image}}" type="image/png" style='width:100%; height: 100%; object-fit: cover' class="rounded-circle">
                                             <img src="{{asset('img/user.svg')}}" style='width:100%; height: 100%; object-fit: contain'/>
                                         </object>
                                     </div>

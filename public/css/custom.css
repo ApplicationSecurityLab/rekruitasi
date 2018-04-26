@@ -30,6 +30,25 @@
     background-color: snow;
 }
 
-.card {
+.tp-card {
     margin-top: 20px;
+    opacity: 0;
 }
+
+.card-anim {
+    animation-name: card-anim;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes card-anim {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+  
