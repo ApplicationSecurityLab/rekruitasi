@@ -21,9 +21,103 @@
                     </div>
                 </div>-->
             </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2">
+                        <a href="{{route('divisi.ids')}}">
+                            <div class="card">
+                                <div style="width: 100%; height: 150px; padding: 15px" class="text-center">
+                                    <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover' class="card-img-top">
+                                        <img src="{{asset('img/ids.svg')}}" style='width:100%; height:100%; object-fit: contain' class="card-img-top" />
+                                    </object>
+                                </div>
+                                <div class="card-body" style="height: 100px">
+                                    <h5 class="card-title">IDS</h5>
+                                    <h6 class="card-subtitle text-muted">Intrusion Detection System</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="{{route('divisi.voip')}}">
+                            <div class="card">
+                                <div style="width: 100%; height: 150px; padding: 15px" class="text-center">
+                                    <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover' class="card-img-top">
+                                        <img src="{{asset('img/voip.svg')}}" style='width:100%; height:100%; object-fit: contain' class="card-img-top" />
+                                    </object>
+                                </div>
+                                <div class="card-body" style="height: 100px">
+                                    <h5 class="card-title">VOIP</h5>
+                                    <h6 class="card-subtitle text-muted">Voice Over Internet Protocol</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="{{route('divisi.web')}}">
+                            <div class="card">
+                                <div style="width: 100%; height: 150px; padding: 15px" class="text-center">
+                                    <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover' class="card-img-top">
+                                        <img src="{{asset('img/web.svg')}}" style='width:100%; height:100%; object-fit: contain' class="card-img-top" />
+                                    </object>
+                                </div>
+                                <div class="card-body" style="height: 100px">
+                                    <h5 class="card-title">WEB</h5>
+                                    <h6 class="card-subtitle text-muted">Web Development</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="{{route('divisi.iv')}}">
+                            <div class="card">
+                                <div style="width: 100%; height: 150px; padding: 15px" class="text-center">
+                                    <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover' class="card-img-top">
+                                        <img src="{{asset('img/iv.svg')}}" style='width:100%; height:100%; object-fit: contain' class="card-img-top" />
+                                    </object>
+                                </div>
+                                <div class="card-body" style="height: 100px">
+                                    <h5 class="card-title">IV</h5>
+                                    <h6 class="card-subtitle text-muted">Interactive Video</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="{{route('divisi.gt')}}">
+                            <div class="card">
+                                <div style="width: 100%; height: 150px; padding: 15px" class="text-center">
+                                    <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover' class="card-img-top">
+                                        <img src="{{asset('img/gametech.svg')}}" style='width:100%; height:100%; object-fit: contain' class="card-img-top" />
+                                    </object>
+                                </div>
+                                <div class="card-body" style="height: 100px">
+                                    <h5 class="card-title">Game Tech</h5>
+                                    <h6 class="card-subtitle text-muted">Game Development</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="{{route('divisi.gis')}}">
+                            <div class="card">
+                                <div style="width: 100%; height: 150px; padding: 15px" class="text-center">
+                                    <object data="" type="image/png" style='width:100%; height: 100%; object-fit: cover' class="card-img-top">
+                                        <img src="{{asset('img/gis.svg')}}" style='width:100%; height:100%; object-fit: contain' class="card-img-top" />
+                                    </object>
+                                </div>
+                                <div class="card-body" style="height: 100px">
+                                    <h5 class="card-title">GIS</h5>
+                                    <h6 class="card-subtitle text-muted">Geographic Information System</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="divisi">
+    <!--<div class="divisi">
         <div class="container">
             <h1 class="display-4 pt-4 text-center">Divisi</h1>
             <hr>
@@ -96,7 +190,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!--<div class="posting container mt-5">
         <ul class="nav nav-pills nav-justified">
             <li class="nav-item">

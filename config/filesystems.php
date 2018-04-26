@@ -43,6 +43,11 @@ return [
 
     'disks' => [
 
+        'gambar' => [
+            'driver' => 'local',
+            'root' => public_path('uploadfoto'),
+        ],
+
         'local' => [
             'driver' => 'local',
             'root' => storage_path('app'),

@@ -18,8 +18,9 @@ class PostMigration extends Migration
             $table->integer('id_user');
             $table->string('post_title');
             $table->string('divisi');
+            $table->text('gambar');
             $table->text('post_text');
-            $table->timestamp('created_at')->nullable();
+            $table->timestamps();
         });
     }
 

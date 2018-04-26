@@ -59,4 +59,20 @@ class HomeController extends Controller
         DB::delete("DELETE FROM users WHERE id=?", [$req->id_user]);
         return redirect()->route('home');
     }
+
+    public function updateUser(Request $req) {
+        /*$user = User::find($req->id_user);
+        $user->name = $req->name;
+        $user->email = $req->email;
+        $user->divisi = $req->divisi;
+        $user->jobdesk = $req->jobdesk;
+        $user->save;*/
+        DB::update("UPDATE users SET name=?, divisi=?, jobdesk=? WHERE id=?", [
+            $req->name,
+            $req->divisi,
+            $req->jobdesk,
+            $req->id_user
+            ]);
+        return redirect()->route('home');
+    }
 }
