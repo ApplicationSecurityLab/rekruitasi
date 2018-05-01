@@ -17,6 +17,8 @@
         <hr>
         <iframe src="{{route('divisi.gis_map')}}" width="100%" height="500px" align="middle"></iframe>
         <hr>
+        <iframe src="https://3dwarehouse.sketchup.com/embed.html?mid=a51c3faa-7bd4-4c97-9068-8d7ae454b4d1&width=580&height=326" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" height="500" allowfullscreen></iframe>
+        <hr>
         <h2>Anggota Divisi</h2>
         <div class="row">
             @if($users)
